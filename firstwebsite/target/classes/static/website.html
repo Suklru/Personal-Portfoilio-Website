@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel ="stylesheet" href ="website.css">
+    </head>
+
+    <body>
+        <nav class ="navbar">
+            <h1>Alfred Zheng</h1>
+            <ul>
+                <li><a href ="#about">About Me</a></li>
+                <li><a href ="#projects">Projects</a></li>
+                <li><a href ="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class ="home">
+            <h1>
+                Introduction<br><span>Overview</span>
+            </h1>
+
+            <div id ="about" class ="about-section">
+                <div class="profile-image">
+                    <img src="images/Screenshot 2025-04-10 141422.png" alt="Profile Image">
+
+                    <div class ="profile-buttons">
+                        <a href ="https://docs.google.com/document/d/141Mc9Jt3Td9Q8EFA5tB8TSlDnKMRp09OSI3kQummMHo/edit?tab=t.0#heading=h.gjdgxs" class="btn" target="_blank">Resume</a>
+                        <a href ="https://github.com/Suklru?tab=repositories" class="btn" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class ="profile-text">
+                    <ul>
+                        <li>I'm a high school student passionate about computer science with experience in coding and problem-solving. 🎓</li>
+                        <li>Currently I'm focusing on pursuing Data Science at Stony Brook University. 🖥️</li>
+                        <li>I've developed projects like Wordle and am constantly seeking ways to improve my coding skills and build innovative software. 🛠️</li>
+                        <li>I enjoy debugging complex problems, optimizing systems, and collaborating with others to bring ideas to life. 🔧</li>
+                        <li>With a background shaped by my Fuzhounese immigrant parents, I'm always learning and eager to grow in the world of tech. 💡</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="projects">
+                <h1>
+                    Innovative Creations<br><span>Projects</span>
+                </h1>
+
+                <div class="project-grid">
+                    <a href="https://github.com/Suklru/Wordle" class="project-wordle">
+                        <img src="/images/Screenshot 2025-04-16 101536.png" alt="Wordle Logo">
+                        <div class="project-title">Wordle</div>
+                    </a>
+
+                    <a href="#" class="project-wordle">
+                        <img src="/images/image2.png" alt="Project 2">
+                        <div class="project-title">Project 2</div>
+                    </a>
+
+                    <a href="#" class="project-wordle">
+                        <img src="/images/image3.png" alt="Project 3">
+                        <div class="project-title">Project 3</div>
+                    </a>
+                </div>
+            </div>
+
+            <div id="contact">
+                <h1>
+                    Get In Touch<br><span>Contact</span>
+                </h1>
+
+                <form id="contactForm" class="contact-form">
+                    <!-- Name box -->
+                    <label for="fname">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..." required> 
+                    
+                    <!-- Email box -->
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email..." required>
+    
+                    <!-- Message box -->
+                     <label for="message">Message</label>
+                     <textarea id="message" name="message" placeholder="Write something..." style="height:200px" required></textarea>
+    
+                     <!-- Submit box-->
+                      <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <script src="website.js"></script>
+            
+            <!-- Add more content to test scrolling -->
+            <p style="height: 1500px;"></p>
+        </div>
+    </body>
+</html>
