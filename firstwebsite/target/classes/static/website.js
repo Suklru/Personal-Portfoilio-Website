@@ -18,15 +18,15 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
-        return response.text(); // or .json() depending on your backend
+        return response.text();
       })
       .then(data => {
         alert("Message sent successfully!");
-        // optionally clear form
         document.getElementById("contactForm").reset();
       })
       .catch(error => {
         alert("There was a problem submitting the form: " + error.message);
       });
   });
+
   
